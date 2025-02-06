@@ -1,3 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body{
-    background-color: #03346E;
+    background-color: #021526;
+    color: #E2E2B6;
+    font-family: Open Sans;
+    background-image: url("Untitled\ \(1\).png");
+    background-size: 175px;
 }
+
+h1{
+    font-size:60px;
+    color: #00FFFF
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+background-image: url("Untitled\ \(1\).png");
+    background-size: 150px 150px;
+
+021526
+03346E
