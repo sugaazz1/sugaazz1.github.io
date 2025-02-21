@@ -7,13 +7,13 @@ body{
     background-image: url("bg1.png");
     background-size: 175px;
     margin:auto;
-    max-width: 1000px;
+    max-width: 1500px;
 }
 
 h1{
     font-size:60px;
-    color: #6c859f;
-    text-decoration:underline
+    color: #10437a;
+    text-decoration:underline;
 }
 
 a{
@@ -60,7 +60,7 @@ main{
     border-width: 5px;
     border-radius: 15px;
     float: left;
-    box-shadow: 2px 6px 20px #E2E2B6;
+    box-shadow: 0.5px 2px 6px 7px #6d859f;
     margin-left: 15px;
     margin-right: 20px;
     /*display: block;*/
@@ -83,12 +83,42 @@ main{
 }
 
 #flags{
-    margin: 15px
+    margin: 15px;
 }
 
+.center{
+    text-align: center;
+}
 
+.button{
+    border-radius: 6px;
+    /*margin: 1px 1px 1px 1px;*/
+    padding: 3px 3px 3px 3px;
+    font-size: 18px;
+    background-color:rgb(4, 255, 255);
+    text-decoration: none;
+}
 
+.button:hover{
+    background-color: #5654e4;
 
+}
+
+.line{
+    border-width: 6px;
+    border-color:#10437a;
+    margin-right: 10px;
+
+}
+
+.button1{
+    border-radius: 6px;
+    /*margin: 1px 1px 1px 1px;*/
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    background-color:rgb(4, 255, 255);
+    text-decoration: none;
+}
 
 HEX CODES:
 #001b2e
