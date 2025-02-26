@@ -7,7 +7,7 @@ body{
     background-image: url("bg1.png");
     background-size: 175px;
     margin:auto;
-    max-width: 1300px;
+    max-width: 1200px;
 }
 
 h1{
@@ -101,7 +101,11 @@ main{
 
 .button:hover{
     background-color: #5654e4;
+    transform: scale(1.2)
+}
 
+.button:active{
+    background-color: beige;
 }
 
 .line{
@@ -118,14 +122,24 @@ main{
     font-size: 18px;
     background-color:rgb(4, 255, 255);
     text-decoration: none;
+
 }
 
-HEX CODES:
+.button1:hover{
+    background-color: #5654e4;
+    transform: scale(1.2);
+}
+
+.button1:active{
+    background-color: beige;
+}
+
+/* HEX CODES:
 #001b2e
 #1d3f58
 #537692
 #b3cde4
-#eef3f9 
+#eef3f9  */
 
 /* 021526
 03346E
