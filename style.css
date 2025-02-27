@@ -134,6 +134,31 @@ main{
     background-color: beige;
 }
 
+.label1{
+    font-size: 20px;
+    background-color: ;
+}
+
+.label2{
+    background-color: #ffffffd9;
+    color: #000000;
+    border-radius: 8px;
+    box-shadow: 0.5px 2px 6px 7px #6d859f;
+}
+
+.form{
+    padding-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
 /* HEX CODES:
 #001b2e
 #1d3f58
