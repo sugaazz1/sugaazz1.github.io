@@ -147,13 +147,26 @@ main{
 }
 
 .form{
-    padding-left: 500px;
+    /*padding-left: 500px;*/
+    text-align: center;
 }
 
+.mainy{
+    background-color: rgba(0,0,0,0.5);
+   padding: 1px 1px 5px 15px;
+   border-radius: 10px;
+   margin-top: 10px;
+}
 
+.align{
+    display: inline-flex;
+    align-items: center;
+}
 
-
-
+.par{
+    font-size: large; 
+    text-decoration: underline;
+}
 
 
 

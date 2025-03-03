@@ -33,27 +33,29 @@
         </ul>
         </nav>
 
-        <main>
+    <main>
 
         <div class="center">
     <h1> Contacts</h1>
 
     <h2 style="text-decoration: underline;">How to reach me: </h2>
 
-    <p style="font-size: large; text-decoration:underline;">Email address:</p>
+    <p class="par">Email address:</p>
     
        <button class="button"> cogboe@brooklynsteamcenter.org</button>
 
        <br>
 
-       <p style="font-size: large; text-decoration: underline;">Phone Number: </p>
+       <p class="par">Phone Number: </p>
 
        <button class="button"> xxx-xxx-xxxx</button>
 
 
-       <p style="font-size: large; text-decoration: underline;">Social Media:</p>
+       <p class="par">Social Media:</p>
 
-       <button class="button"> <a href="https://www.linkedin.com/in/caleb-ogboe-48181632a " target="_blank">Linkedin - Caleb Ogboe </a> </button>
+        <a href="https://www.linkedin.com/in/caleb-ogboe-48181632a " target="_blank" class="button align"> 
+            <i data-lucide="linkedin"> </i> - Linkedin
+       </a> 
     
     </div>
 
@@ -61,66 +63,25 @@
 
 
 
-    <h2 style="text-decoration: underline; text-align: center;"> Fill out this Form if you would like me to contact you:</h2>
+    <h2 style="text-decoration: underline; text-align: center;"> Fill out this Form if you would like me to contact you:
 
-    <div class="form">
+        <a href="forms.html" target="_blank">
+            <i data-lucide="book-copy" style="color: white;" class="button"></i>
+        </a>
+    </h2>
 
-    <form
-    action="https://form-to-email.steam-center.workers.dev/"
-    method="post"
-    > 
+<br>
+<br>
+<br>
+<br>
 
-        <input name="send-to" value="cogboe@brooklynsteamcenter.org" hidden>
-
-        <label class="label1"> First name: </label>
-        <input class="label2" required name="first_name"/>
-
-        <br>
-
-        <label class="label1"> Last name: </label>
-        <input class="label2" name="last_name"/>
-
-        <br>
-
-        <label class="label1"> Email: </label>
-        <input class="label2" type="email" required name="email"/>
-
-        <br>
-
-        <label class="label1"> Phone Number:</label>
-        <input class="label2" required name="phone"/>
-
-        <br>
-
-        <p class="label1">Preferred Contact: </p>
-        <input type="checkbox" name="contact" value="email"> <label> Email</label>
-        <br>
-        <input class="label2" type="checkbox" name="contact1" value="phone"> <label> Phone</label>
-
-        <br><br>
-
-        <label class="label1"> Occupation:</label>
-        <input class="label2" required name="Occupation"/>
-
-        <br><br>
-
-        <label class="label1">Reason for contacting me:</label>
-        <br>
-        <textarea class="label2" required> </textarea>
-
-        <br>
-        <input type="submit">
-        <!-- <input type="reset"/> -->
-
-
-    </form>
-
-    </div>
-
-    <h2 style="text-decoration: underline; text-align: center; font-size: 40px;" > I USUALLY REPLY WITHING 6-38 HRS</h2>
-
+    <h2 style="text-decoration: underline; font-size: 30px; text-align: center;"> I USUALLY REPLY WITHIN 12-48 HOURS</h2>
 
     </main>
 
-</body>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    </body>
 </html>

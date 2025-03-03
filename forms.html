@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form </title>
+</head>
+<body>
+
+    <main class="mainy" >
+        
+        <h1 style="text-align: center;"> Contact Form </h1>
+
+        <div class="form">
+
+            <form
+            action="https://form-to-email.steam-center.workers.dev/"
+            method="post"
+            > 
+        
+                <input name="send-to" value="cogboe@brooklynsteamcenter.org" hidden>
+        
+                <label class="label1"> First name: </label>
+                <input class="label2" required name="first_name"/>
+        
+                <br>
+        
+                <label class="label1"> Last name: </label>
+                <input class="label2" name="last_name"/>
+        
+                <br>
+        
+                <label class="label1"> Email: </label>
+                <input class="label2" type="email" required name="email"/>
+        
+                <br>
+        
+                <label class="label1"> Phone Number:</label>
+                <input class="label2" required name="phone"/>
+        
+                <br>
+        
+                <p class="label1">Preferred Contact: </p>
+                <input type="checkbox" name="contact" value="email"> <label> Email</label>
+                <br>
+                <input class="label2" type="checkbox" name="contact1" value="phone"> <label> Phone</label>
+        
+                <br><br>
+        
+                <label class="label1"> Occupation:</label>
+                <input class="label2" required name="Occupation"/>
+        
+                <br><br>
+        
+                <label class="label1">Reason for contacting me:</label>
+                <br>
+                <textarea class="label2" required> </textarea>
+        
+                <br>
+                <input type="submit">
+                <!-- <input type="reset"/> -->
+        
+        
+            </form>
+        
+            </div>
+    </main>
+
+</body>
