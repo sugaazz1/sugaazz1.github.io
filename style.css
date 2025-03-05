@@ -168,7 +168,13 @@ main{
     text-decoration: underline;
 }
 
-
+.imagy{
+    background-color: #6d859f;
+    border-radius: 5px;
+    padding-top: 6px;
+    box-shadow: 1px 1px 1px 1px #04ff00;
+    align-items: center;
+}
 
 
 
