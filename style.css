@@ -69,7 +69,7 @@ main{
 
 .about{
     border-color: black;
-    border-width:5px;
+    border-width:3px;
     border-radius: 15px;
     border-style:solid;
     box-shadow: 2px 6px 20px rgb(32, 178, 76);
@@ -83,7 +83,7 @@ main{
 }
 
 #flags{
-    margin: 15px;
+    /* */
 }
 
 .center{
@@ -155,7 +155,7 @@ main{
     background-color: rgba(0,0,0,0.5);
    padding: 1px 1px 5px 15px;
    border-radius: 10px;
-   margin-top: 10px;
+   margin-top: 8px;
 }
 
 .align{
@@ -171,11 +171,42 @@ main{
 .imagy{
     background-color: #6d859f;
     border-radius: 5px;
+    border: px solid #000;
     padding-top: 6px;
-    box-shadow: 1px 1px 1px 1px #04ff00;
-    align-items: center;
+    box-shadow: 2px 6px 9px 9px #00c8ff;
+   
 }
 
+#imagy{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        margin:auto;
+        
+    }
+    #flag {
+        flex-direction: column-reverse;
+    }
+    main{
+        background-color: rgba(0,0,0,0.5);
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .mainy{
+        background-color: rgba(0,0,0,0.5);
+       padding: 5px 5px 5px 5px;
+       border-radius: 10px;
+       margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}
 
 
 /* HEX CODES:
@@ -187,4 +218,6 @@ main{
 
 /* 021526
 03346E
-081863 */
+081863 
+0d2e3e 
+*/
