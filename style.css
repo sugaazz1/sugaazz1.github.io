@@ -80,6 +80,7 @@ main{
     background-color: none;
     display: flex;
     justify-content: space-around;
+    flex-direction: column-reverse;
 }
 
 #flags{
@@ -143,7 +144,12 @@ main{
     background-color: #ffffffd9;
     color: #000000;
     border-radius: 8px;
+}
+
+.label2:checked{
     box-shadow: 0.5px 2px 6px 7px #6d859f;
+
+
 }
 
 .form{
@@ -153,7 +159,7 @@ main{
 
 .mainy{
     background-color: rgba(0,0,0,0.5);
-   padding: 1px 1px 5px 15px;
+   padding: 5px 5px 5px 5px;
    border-radius: 10px;
    margin-top: 8px;
 }
@@ -171,16 +177,16 @@ main{
 .imagy{
     background-color: #6d859f;
     border-radius: 5px;
-    border: px solid #000;
+    border: 1px solid #000;
     padding-top: 6px;
-    box-shadow: 2px 6px 9px 9px #00c8ff;
+    box-shadow: 2px 6px 19px 9px #00c8ff;
    
 }
 
 #imagy{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-evenly;
 }
 
 @media screen and (max-width: 480px) {
@@ -201,6 +207,13 @@ main{
        padding: 5px 5px 5px 5px;
        border-radius: 10px;
        margin-top: 8px;
+    }
+    .imagy{
+        background-color: #6d859f;
+        border-radius: 5px;
+        border: 1px solid #000;
+        padding-top: 6px;
+        box-shadow: 2px 6px 19px 9px #00c8ff;
     }
 }
 

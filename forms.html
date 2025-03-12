@@ -48,7 +48,7 @@
                 <br>
         
                 <p class="label1">Preferred Contact: </p>
-                <input type="checkbox" name="contact" value="email"> <label> Email</label>
+                <input class="label2" type="checkbox" name="contact" value="email"> <label> Email</label>
                 <br>
                 <input class="label2" type="checkbox" name="contact1" value="phone"> <label> Phone</label>
         
@@ -64,7 +64,10 @@
                 <textarea class="label2" required> </textarea>
         
                 <br>
-                <input type="submit">
+
+               <button type="submit">
+                <i data-lucide="send"></i>
+               </button>
                 <!-- <input type="reset"/> -->
         
         
@@ -73,5 +76,11 @@
             </div>
     </main>
 
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script> 
 </body>
 </html>
